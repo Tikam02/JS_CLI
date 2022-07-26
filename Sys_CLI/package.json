@@ -1,0 +1,26 @@
+{
+  "name": "sys_cli",
+  "version": "1.0.0",
+  "description": "System CLI in JS",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "csys": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tikam02/JS_CLI"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "ps-node": "^0.1.6",
+    "yargs": "^15.3.1"
+  }
+}

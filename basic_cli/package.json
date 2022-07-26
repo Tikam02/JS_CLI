@@ -1,0 +1,25 @@
+{
+  "name": "yargs-example",
+  "version": "1.0.0",
+  "description": "A simple Yargs CLI",
+  "bin": {
+    "bcli": "./index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "preferGlobal": true,
+  "author": "Christopher Kade",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  },
+  "homepage": "YOUR GITHUB REPO OR SITE HERE",
+  "repository": {
+    "type": "git",
+    "url": "git+YOUR GITHUB REPOSITORY HERE"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
